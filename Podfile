@@ -1,0 +1,7 @@
+pod 'XBExtension', '~> 0.3'
+pod 'UIActivityIndicator-for-SDWebImage', '~> 1.2'
+pod 'DAKeyboardControl', '~> 2.4'
+pod 'XCDYouTubeKit', '~> 2.3.3'
+pod 'NSDate+TimeAgo', '~> 1.0'
+pod 'FBPLUGIN', '~>0.3.1'
+pod 'Google-Mobile-Ads-SDK', '~> 7.6'

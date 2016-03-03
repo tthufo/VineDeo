@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>UCi_V-NWe_nqsj5AlT3SIN_g</string>
+		<key>image</key>
+		<string>https://pbs.twimg.com/profile_images/378800000860434601/X3IVzMc_.jpeg</string>
+		<key>title</key>
+		<string>The Best Vine</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>UCy0S4ABTUfuGaWpTeSflHLQ</string>
+		<key>image</key>
+		<string>https://yt3.ggpht.com/-jQv_D-hKLyc/AAAAAAAAAAI/AAAAAAAAAAA/bywwc0WTcRw/s240-c-k-no/photo.jpg</string>
+		<key>title</key>
+		<string>VineADD TV</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>UCGbooUxbbC-YmRXCNQ96Ycw</string>
+		<key>image</key>
+		<string>http://www.vervesearch.com/wp-content/uploads/2013/10/VineImgBlog-01.jpg</string>
+		<key>title</key>
+		<string>Best Vinners</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>UCqXok4OMN4Kf7p6deGDUaoA</string>
+		<key>image</key>
+		<string>http://www.sub.tv/wp-content/uploads/2015/05/top10Vines_1024x684-255x180.jpg</string>
+		<key>title</key>
+		<string>Top Vinners</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>UCGlmhyeAPZkwX2Zr_CvAeXg</string>
+		<key>image</key>
+		<string>https://lh6.ggpht.com/w7Fp6J6thcWzu2J8B6sZi9ERzaatygB_InCQLRBQmLvY3qZTNHAvXvC50SVjmr3ZiEc=w300</string>
+		<key>title</key>
+		<string>Vine Daily</string>
+	</dict>
+</array>
+</plist>

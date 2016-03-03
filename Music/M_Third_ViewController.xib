@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="M_Third_ViewController">
+            <connections>
+                <outlet property="collectionView" destination="HVN-cC-dax" id="DfM-MP-CvI"/>
+                <outlet property="searchBar" destination="q5W-9E-WHL" id="GSb-zB-fcq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="42w-xu-X2S">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="HVN-cC-dax">
+                    <rect key="frame" x="0.0" y="35" width="320" height="445"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="h2Z-Mf-Idt">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="9PG-5X-X2O"/>
+                        <outlet property="delegate" destination="-1" id="pbU-Us-2v4"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="42w-xu-X2S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1F2-qH-MCV"/>
+                <constraint firstItem="HVN-cC-dax" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="82H-W8-fp8"/>
+                <constraint firstAttribute="trailing" secondItem="HVN-cC-dax" secondAttribute="trailing" id="IGu-Hb-Sce"/>
+                <constraint firstAttribute="bottom" secondItem="HVN-cC-dax" secondAttribute="bottom" id="VRQ-KS-Q6c"/>
+                <constraint firstAttribute="bottom" secondItem="42w-xu-X2S" secondAttribute="bottom" id="WE6-II-r3V"/>
+                <constraint firstItem="42w-xu-X2S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ad2-5a-oWP"/>
+                <constraint firstAttribute="trailing" secondItem="42w-xu-X2S" secondAttribute="trailing" id="eR0-3t-jIq"/>
+                <constraint firstItem="HVN-cC-dax" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="rwx-TN-zrg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="28" y="387"/>
+        </view>
+        <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search" translucent="NO" id="q5W-9E-WHL">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <textInputTraits key="textInputTraits"/>
+            <connections>
+                <outlet property="delegate" destination="-1" id="nb0-M3-nJr"/>
+            </connections>
+            <point key="canvasLocation" x="-191" y="745"/>
+        </searchBar>
+    </objects>
+</document>
